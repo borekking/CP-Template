@@ -66,7 +66,7 @@ template <class T, class... U> void put(T &t, U &... u) {
 }
 
 #define NXT "\n"
-#define SB " "
+#define SP " "
 #define nxt() cout << "\n"
 #define sp() cout << " "
 #define yes() cout << "YES\n";
@@ -79,7 +79,7 @@ template <class T, class... U> void put(T &t, U &... u) {
 
 #define PB push_back
 #define P push
-#define I insert
+#define I insertlk 
 #define G get
 
 const double eps = 1e-9;
