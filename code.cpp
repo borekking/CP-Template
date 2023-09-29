@@ -79,7 +79,7 @@ template <class T, class... U> void put(T &t, U &... u) {
 
 #define PB push_back
 #define P push
-#define I insertlk 
+#define I inser
 #define G get
 
 const double eps = 1e-9;
