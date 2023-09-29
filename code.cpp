@@ -92,8 +92,9 @@ void solve() {
 int main() {
     // FAST;
     // READ_FILE(".in", ".out");
+
     ll t = 1;
-    // gets(t);
+    // ll t; gets(t);
 
     loop(k,1,t+1,1) {
         // put("Case #", k, ": ");
