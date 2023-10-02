@@ -37,6 +37,9 @@ typedef queue<ll> qll;
 #define F first
 #define S second
 
+// Tuple
+#define MT make_tuple
+
 // For
 #define rep(i,n) for (ll i = 0; i < (n); i++)
 #define per(i,n) for (ll i = (n)-1; i >= 0; i--)
