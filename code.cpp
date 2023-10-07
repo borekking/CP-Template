@@ -87,6 +87,7 @@ template <class T, class... U> void put(T &t, U &... u) {
 
 const double eps = 1e-9;
 const ll INF = 1e18;
+const ll MOD = 1e9 + 7;
 
 void solve() {
     
