@@ -93,18 +93,42 @@ void solve() {
     
 }
 
-int main() {
-    // FAST;
-    // READ_FILE(".in", ".out");
+void main_stdio(bool cases) {
+    FAST;
 
     ll t = 1;
-    // ll t; gets(t);
+    if (cases) gets(t);
 
     loop(k,1,t+1,1) {
         // put("Case #", k, ": ");
         solve();
     }
 
-    // cout << flush;
+    cout << flush;
+}
+
+void main_fileio(bool cases, string in, string out) {
+    READ_FILE(in.c_str(), out.c_str());
+
+    ll t = 1;
+    if (cases) gets(t);
+
+    loop(k,1,t+1,1) {
+        // put("Case #", k, ": ");
+        solve();
+    }
+}
+
+int main() {
+    bool stdio = true;
+    bool cases = false;
+    string in = "in.in";
+    string out = "out.out";
+
+    if (stdio) {
+        main_stdio(cases);
+    } else {
+        main_fileio(cases, in, out);
+    }
     return 0;
 }
